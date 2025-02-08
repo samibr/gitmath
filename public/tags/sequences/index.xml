@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/gitmath/tags/sequences/</link>
+	<link>https://samibr.github.io/tags/sequences/</link>
 	<description>Recent content in Sequences on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://samibr.github.io/gitmath/tags/sequences/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/tags/sequences/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Convergence of Sequences Given a Quadratic Sum Condition</title>
-		<link>https://samibr.github.io/gitmath/7/</link>
+		<link>https://samibr.github.io/7/</link>
 		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/7/</guid>
+		<guid>https://samibr.github.io/7/</guid>
 		<description>&lt;p&gt;Let $(u_n)$ and $(v_n)$ be two real sequences such that&lt;/p&gt;
 &lt;p&gt;$$ u_n^2+ u_n v_n + v_n^2 \xrightarrow[n\to+\infty]  {}0.$$&lt;/p&gt;
 &lt;p&gt;Prove that the sequences $(u_n)$ and $(v_n)$ converge to 0.&lt;/p&gt;
@@ -40,10 +40,10 @@ which allows to conclude that $u_n\xrightarrow[n\to+\infty]{}0$ and $v_n\xrighta
 	
 	<item>
 		<title>Divergence of Harmonic Series and Sequence Behavior at Infinity</title>
-		<link>https://samibr.github.io/gitmath/8/</link>
+		<link>https://samibr.github.io/8/</link>
 		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/8/</guid>
+		<guid>https://samibr.github.io/8/</guid>
 		<description>&lt;p&gt;Let $(H_n)$ the sequence defined for $n\in \mathbb{N}$ by
 $$H_n= \sum_{k=1}^n \frac 1k.$$&lt;/p&gt;
 &lt;ol&gt;

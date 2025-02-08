@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/gitmath/tags/mean-value-inequality/</link>
+	<link>https://samibr.github.io/tags/mean-value-inequality/</link>
 	<description>Recent content in Mean Value Inequality on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://samibr.github.io/gitmath/tags/mean-value-inequality/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/tags/mean-value-inequality/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</title>
-		<link>https://samibr.github.io/gitmath/10/</link>
+		<link>https://samibr.github.io/10/</link>
 		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/10/</guid>
+		<guid>https://samibr.github.io/10/</guid>
 		<description>&lt;p&gt;Let $I$ be an interval of $\mathbb{R}$ and $f:I\to\mathbb{R}$ be differentiable.&lt;/p&gt;
 &lt;p&gt;Show that $f$ is a Lipshitz continuous function if, and only if, its derivative is bounded.&lt;/p&gt;
 

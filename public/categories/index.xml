@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/gitmath/categories/</link>
+	<link>https://samibr.github.io/categories/</link>
 	<description>Recent content in Categories on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
     
-        <atom:link href="https://samibr.github.io/gitmath/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	</channel>

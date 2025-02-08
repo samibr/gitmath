@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/gitmath/tags/rolles-theorem/</link>
+	<link>https://samibr.github.io/tags/rolles-theorem/</link>
 	<description>Recent content in Rolle&#39;s Theorem on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://samibr.github.io/gitmath/tags/rolles-theorem/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/tags/rolles-theorem/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</title>
-		<link>https://samibr.github.io/gitmath/9/</link>
+		<link>https://samibr.github.io/9/</link>
 		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/9/</guid>
+		<guid>https://samibr.github.io/9/</guid>
 		<description>&lt;p&gt;Let $a,b,c\in \mathbb{R}$. Show that there exists $x\in (0,1)$ such that&lt;/p&gt;
 &lt;p&gt;$$4ax^3+3bx^2+2cx=a+b+c.$$&lt;/p&gt;
 
@@ -31,10 +31,10 @@ Apply the Rolle&#39;s Theorem  to the function $\varphi:[0,1]\to \mathbb{R}, t\m
 	
 	<item>
 		<title>Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</title>
-		<link>https://samibr.github.io/gitmath/1/</link>
+		<link>https://samibr.github.io/1/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/1/</guid>
+		<guid>https://samibr.github.io/1/</guid>
 		<description>&lt;p&gt;Let $\mathbb{R}\to\mathbb{R}$ be a differentiable function. Assume that
 $f&amp;rsquo;$ does not vanish. Show that $f$ cannot be periodic.&lt;/p&gt;
 
@@ -50,10 +50,10 @@ If $f$ is $T$-periodic with $T&gt;0$, then by applying Rolle&#39;s Theorem betwe
 	
 	<item>
 		<title>Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</title>
-		<link>https://samibr.github.io/gitmath/topics/series/1/</link>
+		<link>https://samibr.github.io/topics/series/1/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/topics/series/1/</guid>
+		<guid>https://samibr.github.io/topics/series/1/</guid>
 		<description>&lt;p&gt;Let $\mathbb{R}\to\mathbb{R}$ be a differentiable function. Assume that
 $f&amp;rsquo;$ does not vanish. Show that $f$ cannot be periodic.&lt;/p&gt;
 

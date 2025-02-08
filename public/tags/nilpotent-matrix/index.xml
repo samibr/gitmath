@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/gitmath/tags/nilpotent-matrix/</link>
+	<link>https://samibr.github.io/tags/nilpotent-matrix/</link>
 	<description>Recent content in Nilpotent Matrix on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://samibr.github.io/gitmath/tags/nilpotent-matrix/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/tags/nilpotent-matrix/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Nilpotent matrix and trace</title>
-		<link>https://samibr.github.io/gitmath/4/</link>
+		<link>https://samibr.github.io/4/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/gitmath/4/</guid>
+		<guid>https://samibr.github.io/4/</guid>
 		<description>&lt;p&gt;Let $A,B\in \mathcal{M}_n(\mathbb{C})$. Suppose that the matrix $A$ is nilpotent and that the matrix $B$ commutes with $A$. What can be said about $\operatorname{Tr}(AB)$?&lt;/p&gt;
 
 &lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;

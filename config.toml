@@ -1,4 +1,4 @@
-baseURL = 'https://samibr.github.io/gitmath/'
+baseURL = 'https://samibr.github.io/'
 languageCode = 'en-us'
 title = 'GitMath: A Collaborative Math Problem Database'
 
