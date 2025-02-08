@@ -1,120 +1,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://samibr.github.io/tags/</link>
+	<link>https://samibr.github.io/gitmath/tags/</link>
 	<description>Recent content in Tags on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://samibr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/gitmath/tags/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Lipschitz Continuous Function</title>
-		<link>https://samibr.github.io/tags/lipschitz-continuous-function/</link>
+		<link>https://samibr.github.io/gitmath/tags/lipschitz-continuous-function/</link>
 		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/lipschitz-continuous-function/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/lipschitz-continuous-function/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Mean Value Inequality</title>
-		<link>https://samibr.github.io/tags/mean-value-inequality/</link>
+		<link>https://samibr.github.io/gitmath/tags/mean-value-inequality/</link>
 		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/mean-value-inequality/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/mean-value-inequality/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Rolle&#39;s Theorem</title>
-		<link>https://samibr.github.io/tags/rolles-theorem/</link>
+		<link>https://samibr.github.io/gitmath/tags/rolles-theorem/</link>
 		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/rolles-theorem/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/rolles-theorem/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Sequences</title>
-		<link>https://samibr.github.io/tags/sequences/</link>
+		<link>https://samibr.github.io/gitmath/tags/sequences/</link>
 		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/sequences/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/sequences/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Eigenvalue</title>
-		<link>https://samibr.github.io/tags/eigenvalue/</link>
+		<link>https://samibr.github.io/gitmath/tags/eigenvalue/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/eigenvalue/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/eigenvalue/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Extreme Value Theorem</title>
-		<link>https://samibr.github.io/tags/extreme-value-theorem/</link>
+		<link>https://samibr.github.io/gitmath/tags/extreme-value-theorem/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/extreme-value-theorem/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/extreme-value-theorem/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Intermediate Value Theorem</title>
-		<link>https://samibr.github.io/tags/intermediate-value-theorem/</link>
+		<link>https://samibr.github.io/gitmath/tags/intermediate-value-theorem/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/intermediate-value-theorem/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/intermediate-value-theorem/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Linear Algebra</title>
-		<link>https://samibr.github.io/tags/linear-algebra/</link>
+		<link>https://samibr.github.io/gitmath/tags/linear-algebra/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/linear-algebra/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/linear-algebra/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Nilpotent Matrix</title>
-		<link>https://samibr.github.io/tags/nilpotent-matrix/</link>
+		<link>https://samibr.github.io/gitmath/tags/nilpotent-matrix/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/nilpotent-matrix/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/nilpotent-matrix/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Diagonalization</title>
-		<link>https://samibr.github.io/tags/diagonalization/</link>
+		<link>https://samibr.github.io/gitmath/tags/diagonalization/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/diagonalization/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/diagonalization/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Fundemental Theorem of Algebra</title>
-		<link>https://samibr.github.io/tags/fundemental-theorem-of-algebra/</link>
+		<link>https://samibr.github.io/gitmath/tags/fundemental-theorem-of-algebra/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/fundemental-theorem-of-algebra/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/fundemental-theorem-of-algebra/</guid>
 		<description></description>
 	</item>
 	
 	<item>
 		<title>Mean Value Theorem</title>
-		<link>https://samibr.github.io/tags/mean-value-theorem/</link>
+		<link>https://samibr.github.io/gitmath/tags/mean-value-theorem/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://samibr.github.io/tags/mean-value-theorem/</guid>
+		<guid>https://samibr.github.io/gitmath/tags/mean-value-theorem/</guid>
 		<description></description>
 	</item>
 	
