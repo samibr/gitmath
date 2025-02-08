@@ -1,7 +1,7 @@
 
 # 📚 GitMath
 
-Welcome to **GitMath**, an open-source repository of mathematical problems, hints, and solutions. This project aims to create a structured, accessible, and collaborative database for students and teachers.
+Welcome to **GitMath**, an open-source repository of mathematical problems, hints, and solutions. This project aims to create a structured, accessible, and collaborative website for students and teachers.
 
 ## 🚀 About This Project
 
