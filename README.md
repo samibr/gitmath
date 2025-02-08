@@ -1,5 +1,5 @@
 
-# 📚 GitMath: A Collaborative Math Problem Database
+# 📚 GitMath
 
 Welcome to **GitMath**, an open-source repository of mathematical problems, hints, and solutions. This project aims to create a structured, accessible, and collaborative database for students and teachers.
 
