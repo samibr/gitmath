@@ -47,12 +47,64 @@
 
 <header><h1 id="tag_Categories">Categories</h1></header>
 <article>
-<ul></ul>
+<ul>
+	<li><time datetime="0001-01-01T00:00:00Z">0001 Jan 01</time> &ndash; <a href="../gitmath/categories/linear-algebra/">Linear Algebra</a></li>
+</ul>
 </article>
 </article>
 </main>
 <footer>
 	<a href="https://samibr.github.io/gitmath/">https://samibr.github.io/gitmath/</a><br><br>
+
+
+<div class="cryptocontainer">
+  <div class="cryptoinfo">
+    <a href="javascript:void(0);" onclick="toggleQR('moneroQR')">
+      <img alt="Monero Icon" style="max-height:1em;max-width:1em;display:inline" src="../pix/xmr.svg">
+      Monero QR
+    </a> <br>
+    <code style="font-size:xx-small;overflow-wrap:break-word;">
+      43DQYosBEoR5PhztL76411LRKLZ9m2jJb3ENonb4tppV9wvMtizgvDiP3RKjp9UfbdaU9TvEXsCeFU7q64NEcdawRB2pC9i
+    </code><br>
+    <img id="moneroQR" class="qr hidden" src="../pix/monero.png" alt="Monero QR Code">
+  </div>
+
+  <div class="cryptoinfo">
+    <a href="javascript:void(0);" onclick="toggleQR('bitcoinQR')">
+      <img alt="Bitcoin Icon" style="max-height:1em;max-width:1em;display:inline" src="../pix/btc.svg">
+      Bitcoin QR
+    </a> <br>
+    <code style="font-size:small;overflow-wrap:break-word;">
+      bc1q5935r8ly3gpmndftf5dttpmqjycuw92x3snepg
+    </code><br>
+    <img id="bitcoinQR" class="qr hidden" src="../pix/bitcoin.png" alt="Bitcoin QR Code">
+  </div>
+</div>
+
+<style>
+.hidden {
+  display: none;
+}
+.qr {
+  max-width: 150px;  
+  margin-top: 10px;
+}
+</style>
+
+<script>
+function toggleQR(id) {
+  var qr = document.getElementById(id);
+  if (qr.style.display === "none" || qr.classList.contains("hidden")) {
+    qr.style.display = "block";
+    qr.classList.remove("hidden");
+  } else {
+    qr.style.display = "none";
+  }
+}
+</script>
+
+
+
 
 
 <a href="../index.xml">

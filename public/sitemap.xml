@@ -140,5 +140,21 @@
     <loc>https://samibr.github.io/gitmath/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://samibr.github.io/gitmath/tags/determinants/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://samibr.github.io/gitmath/categories/linear-algebra/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://samibr.github.io/gitmath/tags/matrices/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://samibr.github.io/gitmath/topics/series/12/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

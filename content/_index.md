@@ -85,9 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 Happy problem-solving! ✨
 
-## Donation
-
-{{< crypto >}}
 
 ## All Posts
 
