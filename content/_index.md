@@ -1,10 +1,10 @@
 ---
-title: " GitMath: A Collaborative Math Problem Database "
-description: 'GitMath is an open-source, community-driven repository of mathematical problems, solutions, and teaching resources.
+title: " GitMath: A Collaborative Math Problem Website "
+description: " GitMath is an open-source, community-driven repository of mathematical problems, solutions, and teaching resources.
   It aims to provide a structured database where students can improve their problem-solving skills and teachers can find quality teaching resources.
   The site features problems organized by topic and difficulty, along with hints and solutions to guide students.
   Contributions are welcome to enhance and expand this collaborative platform.
-  The site is built using Hugo and hosted on GitLab Pages.'
+  The site is built using Hugo and hosted on GitLab Pages. "
 ---
 
 
@@ -85,14 +85,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 Happy problem-solving! ✨
 
+
+## All Posts
+
+
 ## Donation
 
 {{< crypto >}}
-
-
-
-
-
-
-
-## All Posts
