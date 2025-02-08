@@ -10,7 +10,7 @@ This repository serves as a **community-driven collection** of:
 - 💡 **Hints & Solutions** to guide students
 - 🏫 **Teaching Resources** for educators
 
-The site is built using [Hugo](https://gohugo.io/) and hosted on **GitLab Pages**.
+The site is built using [Hugo](https://gohugo.io/) and hosted on **GitHub Pages**.
 
 ## 🎯 Who Is This For?
 
@@ -20,7 +20,7 @@ The site is built using [Hugo](https://gohugo.io/) and hosted on **GitLab Pages*
 
 ## 🌍 Live Site
 The compiled Hugo site is available at:
-👉 **[https://sbrmath.gitlab.io/gitmath](https://sbrmath.gitlab.io/gitmath)**
+👉 **[https://samibr.gihuab.io/gitmath](https://samibr.github.io/gitmath)**
 
 ## 🛠️ How to Contribute
 
@@ -28,13 +28,13 @@ We welcome contributions! Follow these steps:
 
 1. **Fork** this repository.
 2. Clone your fork:
-git clone https://gitlab.com/YOUR_USERNAME/gitmath.git
+git clone https://github.com/YOUR_USERNAME/gitmath.git
 
 3. Add or update problems, hints, or solutions in the **content/** folder.
 4. Commit and push your changes:
 git add . git commit -m "Added new math problem on calculus" git push origin main
 
-5. Create a **Merge Request (MR)** for review.
+5. Create a **Pull Request (PR)** for review.
 
 ## 🏗️ How to Run Locally
 
