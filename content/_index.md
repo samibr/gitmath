@@ -75,12 +75,15 @@ document.addEventListener("DOMContentLoaded", () => {
 {{< tagcloud >}}
 
 ## About this site
+**GitMath** is a collaborative, open-source platform hosted on GitHub that provides a structured database of mathematical problems, solutions, and teaching resources.
 
-- Founded to provide a simple and free online Problem Book.
-- Various mathematical notions and chapters are visited through solving problems  and exercises with different difficulties.
-- The content is intended for undergraduate students (*and more generally for mathematics enthusiasts*) to practice solving problems as well as for teachers as a source of exercises and problems to enrich their lessons.
-- Some hints, short or complete answers can be provided.
-- Any suggestions for a problem or exercise  or requests for a hint or answer to any questions are welcome. So  don't hesitate to post a comment or to  email me at [sami.ben.romdhane@zohomail.com](mailto:sami.ben.romdhane@zohomail.com)
+- The platform is built to support **students** who want to practice problem-solving skills and **teachers** who need quality teaching resources.
+- Problems are categorized by topic and difficulty, with hints and solutions available to guide students.
+- The project is **community-driven**, meaning that anyone can contribute by adding new problems, hints, or solutions.
+- This site is maintained using **Hugo**, a fast and flexible static site generator, and is hosted on **GitHub Pages**.
+- We welcome contributions and suggestions! If you want to add problems or improve the content, feel free to fork the repository and submit a pull request.
+
+Happy problem-solving! ✨
 
 ## Donation
 
