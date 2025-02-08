@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://sbrmath.gitlab.io/gitmath/topics/</link>
+	<link>https://samibr.github.io/gitmath/topics/</link>
 	<description>Recent content in Topics on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://sbrmath.gitlab.io/gitmath/topics/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/gitmath/topics/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</title>
-		<link>https://sbrmath.gitlab.io/gitmath/topics/series/2/</link>
+		<link>https://samibr.github.io/gitmath/topics/series/2/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://sbrmath.gitlab.io/gitmath/topics/series/2/</guid>
+		<guid>https://samibr.github.io/gitmath/topics/series/2/</guid>
 		<description>&lt;p&gt;Prove that&lt;/p&gt;
 &lt;p&gt;$$ \forall x&amp;gt;0,\quad \frac{1}{1+x}&amp;lt; \ln(1+x)-\ln(x)&amp;lt;\frac1 x.$$&lt;/p&gt;
 &lt;p&gt;Deduce, for $k\in \mathbb{N}\setminus\{1\}$,&lt;/p&gt;
@@ -49,10 +49,10 @@ $$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \frac1 p=\ln k.$$
 	
 	<item>
 		<title>Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</title>
-		<link>https://sbrmath.gitlab.io/gitmath/topics/series/1/</link>
+		<link>https://samibr.github.io/gitmath/topics/series/1/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://sbrmath.gitlab.io/gitmath/topics/series/1/</guid>
+		<guid>https://samibr.github.io/gitmath/topics/series/1/</guid>
 		<description>&lt;p&gt;Let $\mathbb{R}\to\mathbb{R}$ be a differentiable function. Assume that
 $f&amp;rsquo;$ does not vanish. Show that $f$ cannot be periodic.&lt;/p&gt;
 

@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://sbrmath.gitlab.io/gitmath/tags/fundemental-theorem-of-algebra/</link>
+	<link>https://samibr.github.io/gitmath/tags/fundemental-theorem-of-algebra/</link>
 	<description>Recent content in Fundemental Theorem of Algebra on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://sbrmath.gitlab.io/gitmath/tags/fundemental-theorem-of-algebra/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/gitmath/tags/fundemental-theorem-of-algebra/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</title>
-		<link>https://sbrmath.gitlab.io/gitmath/3/</link>
+		<link>https://samibr.github.io/gitmath/3/</link>
 		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://sbrmath.gitlab.io/gitmath/3/</guid>
+		<guid>https://samibr.github.io/gitmath/3/</guid>
 		<description>&lt;p&gt;Let $n\in \mathbb{N}$, $n\ge 2$. Is the endomorphism $\varphi$ of $\mathbb{C}_n[X]$, which maps the polynomial $P(X)$ to the polynomial $P(X+1)-P(X)$, diagonalizable?&lt;/p&gt;
 
 &lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;

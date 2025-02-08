@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>GitMath: A Collaborative Math Problem Database</title>
-	<link>https://sbrmath.gitlab.io/gitmath/tags/extreme-value-theorem/</link>
+	<link>https://samibr.github.io/gitmath/tags/extreme-value-theorem/</link>
 	<description>Recent content in Extreme Value Theorem on GitMath: A Collaborative Math Problem Database</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://sbrmath.gitlab.io/gitmath/tags/extreme-value-theorem/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://samibr.github.io/gitmath/tags/extreme-value-theorem/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</title>
-		<link>https://sbrmath.gitlab.io/gitmath/6/</link>
+		<link>https://samibr.github.io/gitmath/6/</link>
 		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://sbrmath.gitlab.io/gitmath/6/</guid>
+		<guid>https://samibr.github.io/gitmath/6/</guid>
 		<description>&lt;p&gt;Show that a continuous and periodic function defined on $\mathbb{R}$ is bounded.&lt;/p&gt;
 
 &lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
