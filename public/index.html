@@ -48,77 +48,7 @@
 
 <header><h1 id="tag_ GitMath: A Collaborative Math Problem Website "> GitMath: A Collaborative Math Problem Website </h1></header>
 <article>
-<h2 id="quick-search">Quick Search</h2>
-<div class="search js-only">
-  <input type="text" id="search" placeholder="Search ALL Posts...">
-  <button id="clear-search">
-    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Backspace</title><path d="M135.19 390.14a28.79 28.79 0 0021.68 9.86h246.26A29 29 0 00432 371.13V140.87A29 29 0 00403.13 112H156.87a28.84 28.84 0 00-21.67 9.84v0L46.33 256l88.86 134.11z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33"></path></svg>
-  </button>
-</div>
-<script>
-// @license magnet:?xt=urn:btih:5ac446d35272cc2e4e85e4325b146d0b7ca8f50c&dn=unlicense.txt Unlicense
-
-document.addEventListener("DOMContentLoaded", () => {
-  for (e of document.getElementsByClassName("js-only")) {
-    e.classList.remove("js-only");
-  }
-
-  const recipes = document.querySelectorAll("#artlist li");
-  const search = document.getElementById("search");
-  const oldheading = document.getElementById("newest-recipes");
-  const clearSearch = document.getElementById("clear-search");
-  const artlist = document.getElementById("artlist");
-
-  search.addEventListener("input", () => {
-    // grab search input value
-    const searchText = search.value.toLowerCase().trim().normalize('NFD').replace(/\p{Diacritic}/gu, "");
-    const searchTerms = searchText.split(" ");
-    const hasFilter = searchText.length > 0;
-
-    artlist.classList.toggle("list-searched", hasFilter);
-    oldheading.classList.toggle("hidden", hasFilter);
-
-    // for each recipe hide all but matched
-    recipes.forEach(recipe => {
-      const searchString = `${recipe.textContent} ${recipe.dataset.tags}`.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, "");
-      const isMatch = searchTerms.every(term => searchString.includes(term));
-
-      recipe.hidden = !isMatch;
-      recipe.classList.toggle("matched-recipe", hasFilter && isMatch);
-    })
-  })
-
-  clearSearch.addEventListener("click", () => {
-    search.value = "";
-    recipes.forEach(recipe => {
-      recipe.hidden = false;
-      recipe.classList.remove("matched-recipe");
-    })
-
-    artlist.classList.remove("list-searched");
-    oldheading.classList.remove("hidden");
-  })
-})
-// @license-end
-</script>
-<h2 id="newest-posts">Newest Posts</h2>
-<ul id=artlist>
-<li data-tags="[Rolle&#39;s Theorem]" ><a href="https://samibr.github.io/gitmath/9/">Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</a></li>
-<li data-tags="[Mean Value Inequality Lipschitz Continuous Function]" ><a href="https://samibr.github.io/gitmath/10/">Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</a></li>
-<li data-tags="[Sequences]" ><a href="https://samibr.github.io/gitmath/7/">Convergence of Sequences Given a Quadratic Sum Condition</a></li>
-<li data-tags="[Sequences]" ><a href="https://samibr.github.io/gitmath/8/">Divergence of Harmonic Series and Sequence Behavior at Infinity</a></li>
-<li data-tags="[Extreme Value Theorem]" ><a href="https://samibr.github.io/gitmath/6/">Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</a></li>
-<li data-tags="[Intermediate Value Theorem]" ><a href="https://samibr.github.io/gitmath/5/">Fixed Point Theorem for Continuous Functions on a Closed Interval</a></li>
-<li data-tags="[Linear Algebra Nilpotent matrix Eigenvalue]" ><a href="https://samibr.github.io/gitmath/4/">Nilpotent matrix and trace</a></li>
-<li data-tags="[Mean value theorem]" ><a href="https://samibr.github.io/gitmath/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
-<li data-tags="[Mean value theorem]" ><a href="https://samibr.github.io/gitmath/topics/series/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
-<li data-tags="[Linear Algebra Fundemental theorem of algebra Diagonalization]" ><a href="https://samibr.github.io/gitmath/3/">Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</a></li>
-<li data-tags="[Rolle&#39;s theorem]" ><a href="https://samibr.github.io/gitmath/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
-<li data-tags="[Rolle&#39;s theorem]" ><a href="https://samibr.github.io/gitmath/topics/series/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
-<li data-tags="[Matrices Determinants]" ><a href="https://samibr.github.io/gitmath/topics/series/12/">Matrix Determinants</a></li>
-</ul>
-
-<h2 id="or-browse-by-topic">Or Browse by Topic&hellip;</h2>
+<h2 id="topics">Topics</h2>
    <ul id="tagcloud">
     <li><a href="https://samibr.github.io/gitmath/tags/determinants" id="tag_determinants">Determinants</a></li>
     <li><a href="https://samibr.github.io/gitmath/tags/diagonalization" id="tag_diagonalization">Diagonalization</a></li>
@@ -135,6 +65,23 @@ document.addEventListener("DOMContentLoaded", () => {
     <li><a href="https://samibr.github.io/gitmath/tags/rolles-theorem" id="tag_rolle&#39;s theorem">Rolle&#39;s Theorem</a></li>
     <li><a href="https://samibr.github.io/gitmath/tags/sequences" id="tag_sequences">Sequences</a></li>
     </ul>
+
+<h2 id="newest-problems">Newest Problems</h2>
+<ul id=artlist>
+<li data-tags="[Rolle&#39;s Theorem]" ><a href="https://samibr.github.io/gitmath/9/">Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</a></li>
+<li data-tags="[Mean Value Inequality Lipschitz Continuous Function]" ><a href="https://samibr.github.io/gitmath/10/">Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</a></li>
+<li data-tags="[Sequences]" ><a href="https://samibr.github.io/gitmath/7/">Convergence of Sequences Given a Quadratic Sum Condition</a></li>
+<li data-tags="[Sequences]" ><a href="https://samibr.github.io/gitmath/8/">Divergence of Harmonic Series and Sequence Behavior at Infinity</a></li>
+<li data-tags="[Extreme Value Theorem]" ><a href="https://samibr.github.io/gitmath/6/">Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</a></li>
+<li data-tags="[Intermediate Value Theorem]" ><a href="https://samibr.github.io/gitmath/5/">Fixed Point Theorem for Continuous Functions on a Closed Interval</a></li>
+<li data-tags="[Linear Algebra Nilpotent matrix Eigenvalue]" ><a href="https://samibr.github.io/gitmath/4/">Nilpotent matrix and trace</a></li>
+<li data-tags="[Mean value theorem]" ><a href="https://samibr.github.io/gitmath/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
+<li data-tags="[Mean value theorem]" ><a href="https://samibr.github.io/gitmath/topics/series/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
+<li data-tags="[Linear Algebra Fundemental theorem of algebra Diagonalization]" ><a href="https://samibr.github.io/gitmath/3/">Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</a></li>
+<li data-tags="[Rolle&#39;s theorem]" ><a href="https://samibr.github.io/gitmath/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
+<li data-tags="[Rolle&#39;s theorem]" ><a href="https://samibr.github.io/gitmath/topics/series/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
+<li data-tags="[Matrices Determinants]" ><a href="https://samibr.github.io/gitmath/topics/series/12/">Matrix Determinants</a></li>
+</ul>
 
 <h2 id="about-this-site">About this site</h2>
 <p><strong>GitMath</strong> is a collaborative, open-source platform hosted on GitHub that provides a structured database of mathematical problems, solutions, and teaching resources.</p>
