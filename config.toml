@@ -1,0 +1,23 @@
+baseURL = 'https://sbrmath.gitlab.io/gitmath/'
+languageCode = 'en-us'
+title = 'GitMath: A Collaborative Math Problem Database'
+description = 'Provide a simple and free online Mathematics Problem Book'
+
+theme = 'lugo'
+
+[params]
+  favicon = "favicon.svg"
+  stylesheet = "/style.css"
+  indexarticles = 50
+  description = 'Provide a simple and free online Mathematics Problem Book'
+  keywords = ["math", "problems", "solutions"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

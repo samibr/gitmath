@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  	
+	<title>Nilpotent Matrix and Trace | GitMath: A Collaborative Math Problem Database</title>
+	<link rel="canonical" href="https://sbrmath.gitlab.io/gitmath/">
+	<link rel='alternate' type='application/rss+xml' title="GitMath: A Collaborative Math Problem Database RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="favicon.svg">
+	<meta name="description" content="Let $A,B\in \mathcal{M}_n(\mathbb{C})$. Suppose that the matrix $A$ is nilpotent and that the matrix $B$ commutes with $A$. What can be said about $\operatorname{Tr}(AB)$?
+
+Show Hint:
+
+    
+The matrix $AB$ is also nilpotent. Why? And remember (or prove) that $0$ is the only eigenvalue for a nilpotent matrix.
+
+">
+	<meta name="keywords" content="Linear Algebra, Nilpotent matrix, Eigenvalue">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
+  integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+  integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
+  integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '\\[', right: '\\]', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false }
+      ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'option'],
+      throwOnError: false
+    });
+  });
+</script>
+
+
+
+<main>
+
+
+
+
+
+
+<header><h1>Nilpotent matrix and trace</h1></header>
+
+
+<p>Let $A,B\in \mathcal{M}_n(\mathbb{C})$. Suppose that the matrix $A$ is nilpotent and that the matrix $B$ commutes with $A$. What can be said about $\operatorname{Tr}(AB)$?</p>
+
+<a href="javascript:void(0);" onclick="toggleHint();" id="toggle-hint">Show Hint:</a>
+<div id="hint" style="display:none;">
+    
+The matrix $AB$ is also nilpotent. Why? And remember (or prove) that $0$ is the only eigenvalue for a nilpotent matrix.
+
+</div>
+
+
+
+<div id="nextprev">
+<a href="/gitmath/2/"><div id="prevart">Previous:<br>Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</div></a>
+<a href="/gitmath/5/"><div id="nextart">Next:<br>Fixed Point Theorem for Continuous Functions on a Closed Interval</div></a>
+</div>
+<div style="clear:both" class=taglist><a id="tag_linear algebra" href="https://sbrmath.gitlab.io/gitmath/tags/linear-algebra">Linear Algebra</a> &middot; <a id="tag_nilpotent matrix" href="https://sbrmath.gitlab.io/gitmath/tags/nilpotent-matrix">Nilpotent Matrix</a> &middot; <a id="tag_eigenvalue" href="https://sbrmath.gitlab.io/gitmath/tags/eigenvalue">Eigenvalue</a></div>
+</article>
+</main>
+<footer>
+	<a href="https://sbrmath.gitlab.io/gitmath/">https://sbrmath.gitlab.io/gitmath/</a><br><br>
+
+
+<a href="/index.xml">
+		<img src="/rss.svg" style="max-height:1.5em; margin-bottom:20px;" alt="RSS Feed" title="Subscribe via RSS for updates.">
+	</a>
+
+</footer>
+</body>
+</html>
+
+
+</p>
+    <script>
+function toggleHint() {
+    var answerElement = document.getElementById('hint');
+    var toggleElement = document.getElementById('toggle-hint');
+    if (answerElement.style.display === 'none') {
+        answerElement.style.display = 'block';
+        toggleElement.innerText = 'Hide Hint:';
+    } else {
+        answerElement.style.display = 'none';
+        toggleElement.innerText = 'Show Hint:';
+
+    }
+}
+    </script>
+</p>
+
+</p>
+    <script>
+function toggleAnswer() {
+    var answerElement = document.getElementById('answer');
+    var toggleElement = document.getElementById('toggle-answer');
+    if (answerElement.style.display === 'none') {
+        answerElement.style.display = 'block';
+        toggleElement.innerText = 'Hide Answer:';
+    } else {
+        answerElement.style.display = 'none';
+        toggleElement.innerText = 'Show Answer:';
+    }
+}
+    </script>
+</p>
+
+
+

@@ -1,0 +1,70 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link>https://sbrmath.gitlab.io/gitmath/topics/</link>
+	<description>Recent content in Topics on GitMath: A Collaborative Math Problem Database</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sbrmath.gitlab.io/gitmath/topics/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</title>
+		<link>https://sbrmath.gitlab.io/gitmath/topics/series/2/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/topics/series/2/</guid>
+		<description>&lt;p&gt;Prove that&lt;/p&gt;
+&lt;p&gt;$$ \forall x&amp;gt;0,\quad \frac{1}{1+x}&amp;lt; \ln(1+x)-\ln(x)&amp;lt;\frac1 x.$$&lt;/p&gt;
+&lt;p&gt;Deduce, for $k\in \mathbb{N}\setminus\{1\}$,&lt;/p&gt;
+&lt;p&gt;$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac{1}{p}.$$&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+We apply the mean value theorem to the function $t\mapsto \ln t$ on the interval $[x,x+1]$. It exists $c\in (x,x+1)$ such that
+$$ \ln(1+x)-\ln x= \frac1 c.$$
+
+Since $x &lt; c &lt; x+1$, we have
+
+$$\frac1{x+1}&lt;\frac1 c&lt;\frac1 x,$$
+
+and we get the desired result.
+
+The bounds
+
+$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \ln(p+1)-\ln p \le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac1 p\le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \ln p-\ln(p-1)$$
+gives us by telescoping
+
+$$\ln \frac{kn+1}{n+1}\le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac1 p\le \ln k.$$
+Finally, by the squeeze theorem
+$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \frac1 p=\ln k.$$
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</title>
+		<link>https://sbrmath.gitlab.io/gitmath/topics/series/1/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/topics/series/1/</guid>
+		<description>&lt;p&gt;Let $\mathbb{R}\to\mathbb{R}$ be a differentiable function. Assume that
+$f&amp;rsquo;$ does not vanish. Show that $f$ cannot be periodic.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+If $f$ is $T$-periodic with $T&gt;0$, then by applying Rolle&#39;s Theorem between, for example, 0 and $T$, the derivative of $f$ must vanish.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	</channel>
+</rss>

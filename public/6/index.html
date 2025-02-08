@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  	
+	<title>Boundedness of Continuous and Periodic Functions on $\Mathbb{R}$ | GitMath: A Collaborative Math Problem Database</title>
+	<link rel="canonical" href="https://sbrmath.gitlab.io/gitmath/">
+	<link rel='alternate' type='application/rss+xml' title="GitMath: A Collaborative Math Problem Database RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="favicon.svg">
+	<meta name="description" content="Show that a continuous and periodic function defined on $\mathbb{R}$ is bounded.
+
+Show Answer:
+
+    
+
+Let $T&gt;0$ be a period of $f$. On $[0,T]$, $f$ is bounded by some $M$ because $f$ is continuous on a closed and bounded interval. For any $x\in \mathbb{R}$, $x−nT\in[0,T]$ for $n=\lfloor x/T\rfloor$, so $∣f(x)∣=∣f(x−nT)∣≤M$.
+
+Thus, $f$ is bounded by $M$ on $\mathbb{R}$.
+
+">
+	<meta name="keywords" content="Extreme Value Theorem">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
+  integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+  integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
+  integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '\\[', right: '\\]', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false }
+      ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'option'],
+      throwOnError: false
+    });
+  });
+</script>
+
+
+
+<main>
+
+
+
+
+
+
+<header><h1>Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</h1></header>
+
+
+<p>Show that a continuous and periodic function defined on $\mathbb{R}$ is bounded.</p>
+
+<a href="javascript:void(0);" onclick="toggleAnswer();" id="toggle-answer">Show Answer:</a>
+<div id="answer" style="display:none;">
+    
+
+Let $T>0$ be a period of $f$. On $[0,T]$, $f$ is bounded by some $M$ because $f$ is continuous on a closed and bounded interval. For any $x\in \mathbb{R}$, $x−nT\in[0,T]$ for $n=\lfloor x/T\rfloor$, so $∣f(x)∣=∣f(x−nT)∣≤M$.
+
+Thus, $f$ is bounded by $M$ on $\mathbb{R}$.
+
+</div>
+
+
+
+<div id="nextprev">
+<a href="/gitmath/5/"><div id="prevart">Previous:<br>Fixed Point Theorem for Continuous Functions on a Closed Interval</div></a>
+<a href="/gitmath/8/"><div id="nextart">Next:<br>Divergence of Harmonic Series and Sequence Behavior at Infinity</div></a>
+</div>
+<div style="clear:both" class=taglist><a id="tag_extreme value theorem" href="https://sbrmath.gitlab.io/gitmath/tags/extreme-value-theorem">Extreme Value Theorem</a></div>
+</article>
+</main>
+<footer>
+	<a href="https://sbrmath.gitlab.io/gitmath/">https://sbrmath.gitlab.io/gitmath/</a><br><br>
+
+
+<a href="/index.xml">
+		<img src="/rss.svg" style="max-height:1.5em; margin-bottom:20px;" alt="RSS Feed" title="Subscribe via RSS for updates.">
+	</a>
+
+</footer>
+</body>
+</html>
+
+
+</p>
+    <script>
+function toggleHint() {
+    var answerElement = document.getElementById('hint');
+    var toggleElement = document.getElementById('toggle-hint');
+    if (answerElement.style.display === 'none') {
+        answerElement.style.display = 'block';
+        toggleElement.innerText = 'Hide Hint:';
+    } else {
+        answerElement.style.display = 'none';
+        toggleElement.innerText = 'Show Hint:';
+
+    }
+}
+    </script>
+</p>
+
+</p>
+    <script>
+function toggleAnswer() {
+    var answerElement = document.getElementById('answer');
+    var toggleElement = document.getElementById('toggle-answer');
+    if (answerElement.style.display === 'none') {
+        answerElement.style.display = 'block';
+        toggleElement.innerText = 'Hide Answer:';
+    } else {
+        answerElement.style.display = 'none';
+        toggleElement.innerText = 'Show Answer:';
+    }
+}
+    </script>
+</p>
+
+
+

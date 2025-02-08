@@ -1,0 +1,258 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link>https://sbrmath.gitlab.io/gitmath/</link>
+	<description>Recent content in  GitMath: A Collaborative Math Problem Database  on GitMath: A Collaborative Math Problem Database</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sbrmath.gitlab.io/gitmath/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</title>
+		<link>https://sbrmath.gitlab.io/gitmath/9/</link>
+		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/9/</guid>
+		<description>&lt;p&gt;Let $a,b,c\in \mathbb{R}$. Show that there exists $x\in (0,1)$ such that&lt;/p&gt;
+&lt;p&gt;$$4ax^3+3bx^2+2cx=a+b+c.$$&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;
+&lt;div id=&#34;hint&#34; style=&#34;display:none;&#34;&gt;
+    
+Apply the Rolle&#39;s Theorem  to the function $\varphi:[0,1]\to \mathbb{R}, t\mapsto at^4+bt^3+ct^2-(a+b+c)t$.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</title>
+		<link>https://sbrmath.gitlab.io/gitmath/10/</link>
+		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/10/</guid>
+		<description>&lt;p&gt;Let $I$ be an interval of $\mathbb{R}$ and $f:I\to\mathbb{R}$ be differentiable.&lt;/p&gt;
+&lt;p&gt;Show that $f$ is a Lipshitz continuous function if, and only if, its derivative is bounded.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+$(\Leftarrow)$ In accordance with the mean value inequality.&lt;br&gt;&lt;br&gt;
+
+$(\Rightarrow)$ If $f$ is $k$ Lipshitz continuous then for all $x,y\in I$ such that $x\ne y$ we have
+$$\left|\frac{f(x)-f(y)}{x-y}\right|\le k.$$
+In the limit as $y\to x$, we obtain $∣f&#39;(x)∣\le k$. Consequently, $f&#39;$ is bounded.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Convergence of Sequences Given a Quadratic Sum Condition</title>
+		<link>https://sbrmath.gitlab.io/gitmath/7/</link>
+		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/7/</guid>
+		<description>&lt;p&gt;Let $(u_n)$ and $(v_n)$ be two real sequences such that&lt;/p&gt;
+&lt;p&gt;$$ u_n^2+ u_n v_n + v_n^2 \xrightarrow[n\to+\infty]  {}0.$$&lt;/p&gt;
+&lt;p&gt;Prove that the sequences $(u_n)$ and $(v_n)$ converge to 0.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+We have
+
+$$0\le (u_n+v_n)^2= u_n^2+2u_n v_n+ v_n^2\le 2(u_n^2+u_n v_n+ v_n^2)\xrightarrow[n\to+\infty]{}0.$$
+Hence $u_n+v_n \xrightarrow[n\to+\infty]{}0$. Also
+$$u_n v_n= (u_n+v_n)^2 -(u_n^2+u_n v_n+ v_n^2)\xrightarrow[n\to+\infty]{}0$$
+so
+$$u_n^2+v_n^2= 2(u_n^2+u_n v_n+ v_n^2)-(u_n+v_n)^2\xrightarrow[n\to+\infty]{}0$$
+which allows to conclude that $u_n\xrightarrow[n\to+\infty]{}0$ and $v_n\xrightarrow[n\to+\infty]{}0$.
+
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Divergence of Harmonic Series and Sequence Behavior at Infinity</title>
+		<link>https://sbrmath.gitlab.io/gitmath/8/</link>
+		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/8/</guid>
+		<description>&lt;p&gt;Let $(H_n)$ the sequence defined for $n\in \mathbb{N}$ by
+$$H_n= \sum_{k=1}^n \frac 1k.$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove that $H_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;/li&gt;
+&lt;li&gt;Let $(u_n)$ a sequence such that $n(u_{n+1}-u_n)\xrightarrow[n\to+\infty]{}1$. Prove that $u_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+1. Knowing $\ln(1+x)\le x$, we have
+$$\frac1k\ge \ln\left(1+\frac1k\right)=\ln(k+1)-\ln k$$
+so
+$$H_n\ge \sum_{k=1}^n \ln(k+1)-\ln k= \ln(n+1)$$
+and then $H_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;br&gt;&lt;br&gt;
+
+
+2. There exists $N\in \mathbb{N}$ such that for all $n\ge N$,
+$$n(u_{n+1}-u_{n})\ge 1/2.$$
+Hence
+$$ u_{n+1}-u_{N}\ge \sum_{k=N}^n u_{k+1}-u_{k}\ge \frac12 \sum_{k=N}^n\frac1k= \frac12(H_{n}-H_{N-1})\xrightarrow[n\to+\infty]{}+\infty$$
+and then $u_{n}\xrightarrow[n\to+\infty]{}+\infty$.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</title>
+		<link>https://sbrmath.gitlab.io/gitmath/6/</link>
+		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/6/</guid>
+		<description>&lt;p&gt;Show that a continuous and periodic function defined on $\mathbb{R}$ is bounded.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+
+Let $T&gt;0$ be a period of $f$. On $[0,T]$, $f$ is bounded by some $M$ because $f$ is continuous on a closed and bounded interval. For any $x\in \mathbb{R}$, $x−nT\in[0,T]$ for $n=\lfloor x/T\rfloor$, so $∣f(x)∣=∣f(x−nT)∣≤M$.
+
+Thus, $f$ is bounded by $M$ on $\mathbb{R}$.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Fixed Point Theorem for Continuous Functions on a Closed Interval</title>
+		<link>https://sbrmath.gitlab.io/gitmath/5/</link>
+		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/5/</guid>
+		<description>&lt;p&gt;Let $f:[0,1]\to [0,1]$ be a continuous function. Show that $f$ has a fixed point.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;
+&lt;div id=&#34;hint&#34; style=&#34;display:none;&#34;&gt;
+    
+Consider the function $g(x)=f(x)−x$. Think about the values of $g(x)$ at the endpoints $x=0$ and $x=1$, and use the Intermediate Value Theorem. What can you say about $g(x)$ on the interval $[0,1]$?
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Nilpotent matrix and trace</title>
+		<link>https://sbrmath.gitlab.io/gitmath/4/</link>
+		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/4/</guid>
+		<description>&lt;p&gt;Let $A,B\in \mathcal{M}_n(\mathbb{C})$. Suppose that the matrix $A$ is nilpotent and that the matrix $B$ commutes with $A$. What can be said about $\operatorname{Tr}(AB)$?&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;
+&lt;div id=&#34;hint&#34; style=&#34;display:none;&#34;&gt;
+    
+The matrix $AB$ is also nilpotent. Why? And remember (or prove) that $0$ is the only eigenvalue for a nilpotent matrix.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</title>
+		<link>https://sbrmath.gitlab.io/gitmath/2/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/2/</guid>
+		<description>&lt;p&gt;Prove that&lt;/p&gt;
+&lt;p&gt;$$ \forall x&amp;gt;0,\quad \frac{1}{1+x}&amp;lt; \ln(1+x)-\ln(x)&amp;lt;\frac1 x.$$&lt;/p&gt;
+&lt;p&gt;Deduce, for $k\in \mathbb{N}\setminus\{1\}$,&lt;/p&gt;
+&lt;p&gt;$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac{1}{p}.$$&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+We apply the mean value theorem to the function $t\mapsto \ln t$ on the interval $[x,x+1]$. It exists $c\in (x,x+1)$ such that
+$$ \ln(1+x)-\ln x= \frac1 c.$$
+
+Since $x &lt; c &lt; x+1$, we have
+
+$$\frac1{x+1}&lt;\frac1 c&lt;\frac1 x,$$
+
+and we get the desired result.
+
+The bounds
+
+$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \ln(p+1)-\ln p \le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac1 p\le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \ln p-\ln(p-1)$$
+gives us by telescoping
+
+$$\ln \frac{kn+1}{n+1}\le \lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn}\frac1 p\le \ln k.$$
+Finally, by the squeeze theorem
+$$\lim\limits_{n\to+\infty}\sum_{p=n+1}^{kn} \frac1 p=\ln k.$$
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</title>
+		<link>https://sbrmath.gitlab.io/gitmath/3/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/3/</guid>
+		<description>&lt;p&gt;Let $n\in \mathbb{N}$, $n\ge 2$. Is the endomorphism $\varphi$ of $\mathbb{C}_n[X]$, which maps the polynomial $P(X)$ to the polynomial $P(X+1)-P(X)$, diagonalizable?&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;
+&lt;div id=&#34;hint&#34; style=&#34;display:none;&#34;&gt;
+    
+One may write the matrix of $\varphi $ with respect to a well-chosen basis or reason by contradiction and use the fundemental theorem of algebra.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</title>
+		<link>https://sbrmath.gitlab.io/gitmath/1/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/1/</guid>
+		<description>&lt;p&gt;Let $\mathbb{R}\to\mathbb{R}$ be a differentiable function. Assume that
+$f&amp;rsquo;$ does not vanish. Show that $f$ cannot be periodic.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+If $f$ is $T$-periodic with $T&gt;0$, then by applying Rolle&#39;s Theorem between, for example, 0 and $T$, the derivative of $f$ must vanish.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Topics</title>
+		<link>https://sbrmath.gitlab.io/gitmath/topics/</link>
+		<pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/topics/</guid>
+		<description></description>
+	</item>
+	
+	</channel>
+</rss>

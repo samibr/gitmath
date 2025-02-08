@@ -1,0 +1,18 @@
+
+
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - hugo version  # Check Hugo version
+
+pages:
+  script:
+    - hugo --minify
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # or the branch you're using for deployment

@@ -1,0 +1,78 @@
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amssymb,amsfonts,amsmath,stackrel,mathtools}
+
+\usepackage{tikz,lipsum,lmodern}
+\usepackage{tikz-3dplot,tkz-euclide}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{listings,breakable}
+\usepackage{cleveref}
+\usepackage{varwidth}
+%\usepackage[utf8]{inputenc}
+\usepackage{stmaryrd}
+\usepackage{multicol}
+\usepackage{tensor}
+\usepackage{stackengine}
+\usepackage[inline]{enumitem}
+\usepackage[skip=3pt]{caption}
+\usepackage{tasks}
+\usepackage{pdfpages}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig,lipsum}
+\usepackage{exsheets}
+\def\questionName{Exercice}
+\DeclareInstance{exsheets-heading}{block-subtitle}{default}{
+  join = {
+    title[r,B]number[l,B](.333em,0pt) ;
+    title[r,B]subtitle[l,B](1em,0pt) ;
+    title[l,B]points[l,B](\linewidth+\marginparsep,0pt) ;
+    main[l,T]title[l,T](0pt,0pt) ;
+  } ,
+  subtitle-pre-code = \parbox[t]{.8\linewidth}
+}
+
+\SetupExSheets{
+  headings=block-subtitle,
+    question/name=\questionName,
+    question/pre-hook = \addcontentsline{toc}{subsection}{
+        \questionName\space\thequestion. \IfQuestionSubtitleT{\emph{\GetQuestionProperty{subtitle}{\CurrentQuestionID}}}
+        }
+    }
+
+
+
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+\makeatletter
+\g@addto@macro\bfseries{\boldmath}
+\makeatother
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\lhead{Algèbre $2^{\text{ème}}$ année MP} % Chapter name on the left header
+\rhead{Prof: Sami Ben Romdhane} % Author name on the right header
+\cfoot{\thepage} % Page number in the center footer
+
+
+
+
+
+\begin{document}
+
+
+We apply the mean value theorem to the function $t\mapsto \ln t$ on the interval $[x,x+1]$. It exists $c\in (x,x+1)$ such that
+$$ \ln(1+x)-\ln x= \frac1 c.$$
+
+Since $x<c< x+1$, we have
+
+$$\frac1{x+1}<\frac1 c<\frac1 x,$$
+
+and we get the desired result.
+\end{document}

@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link>https://sbrmath.gitlab.io/gitmath/tags/intermediate-value-theorem/</link>
+	<description>Recent content in Intermediate Value Theorem on GitMath: A Collaborative Math Problem Database</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sbrmath.gitlab.io/gitmath/tags/intermediate-value-theorem/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Fixed Point Theorem for Continuous Functions on a Closed Interval</title>
+		<link>https://sbrmath.gitlab.io/gitmath/5/</link>
+		<pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/5/</guid>
+		<description>&lt;p&gt;Let $f:[0,1]\to [0,1]$ be a continuous function. Show that $f$ has a fixed point.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleHint();&#34; id=&#34;toggle-hint&#34;&gt;Show Hint:&lt;/a&gt;
+&lt;div id=&#34;hint&#34; style=&#34;display:none;&#34;&gt;
+    
+Consider the function $g(x)=f(x)−x$. Think about the values of $g(x)$ at the endpoints $x=0$ and $x=1$, and use the Intermediate Value Theorem. What can you say about $g(x)$ on the interval $[0,1]$?
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	</channel>
+</rss>

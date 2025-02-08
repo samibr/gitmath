@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.143.1">
+
+  	
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link rel="canonical" href="https://sbrmath.gitlab.io/gitmath/">
+	<link rel='alternate' type='application/rss+xml' title="GitMath: A Collaborative Math Problem Database RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="favicon.svg">
+	<meta name="description" content="GitMath is an open-source, community-driven repository of mathematical problems, solutions, and teaching resources. It aims to provide a structured database where students can improve their problem-solving skills and teachers can find quality teaching resources. The site features problems organized by topic and difficulty, along with hints and solutions to guide students. Contributions are welcome to enhance and expand this collaborative platform. The site is built using Hugo and hosted on GitLab Pages.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+
+
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
+  integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+  integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
+  integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '\\[', right: '\\]', display: true },
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false }
+      ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'option'],
+      throwOnError: false
+    });
+  });
+</script>
+
+
+
+<main>
+
+
+
+<header><h1 id="tag_ GitMath: A Collaborative Math Problem Database "> GitMath: A Collaborative Math Problem Database </h1></header>
+<article>
+<h2 id="quick-search">Quick Search</h2>
+<div class="search js-only">
+  <input type="text" id="search" placeholder="Search ALL Posts...">
+  <button id="clear-search">
+    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Backspace</title><path d="M135.19 390.14a28.79 28.79 0 0021.68 9.86h246.26A29 29 0 00432 371.13V140.87A29 29 0 00403.13 112H156.87a28.84 28.84 0 00-21.67 9.84v0L46.33 256l88.86 134.11z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33M336.67 192.33L206.66 322.34M336.67 322.34L206.66 192.33"></path></svg>
+  </button>
+</div>
+<script>
+// @license magnet:?xt=urn:btih:5ac446d35272cc2e4e85e4325b146d0b7ca8f50c&dn=unlicense.txt Unlicense
+
+document.addEventListener("DOMContentLoaded", () => {
+  for (e of document.getElementsByClassName("js-only")) {
+    e.classList.remove("js-only");
+  }
+
+  const recipes = document.querySelectorAll("#artlist li");
+  const search = document.getElementById("search");
+  const oldheading = document.getElementById("newest-recipes");
+  const clearSearch = document.getElementById("clear-search");
+  const artlist = document.getElementById("artlist");
+
+  search.addEventListener("input", () => {
+    // grab search input value
+    const searchText = search.value.toLowerCase().trim().normalize('NFD').replace(/\p{Diacritic}/gu, "");
+    const searchTerms = searchText.split(" ");
+    const hasFilter = searchText.length > 0;
+
+    artlist.classList.toggle("list-searched", hasFilter);
+    oldheading.classList.toggle("hidden", hasFilter);
+
+    // for each recipe hide all but matched
+    recipes.forEach(recipe => {
+      const searchString = `${recipe.textContent} ${recipe.dataset.tags}`.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, "");
+      const isMatch = searchTerms.every(term => searchString.includes(term));
+
+      recipe.hidden = !isMatch;
+      recipe.classList.toggle("matched-recipe", hasFilter && isMatch);
+    })
+  })
+
+  clearSearch.addEventListener("click", () => {
+    search.value = "";
+    recipes.forEach(recipe => {
+      recipe.hidden = false;
+      recipe.classList.remove("matched-recipe");
+    })
+
+    artlist.classList.remove("list-searched");
+    oldheading.classList.remove("hidden");
+  })
+})
+// @license-end
+</script>
+<h2 id="newest-posts">Newest Posts</h2>
+<ul id=artlist>
+<li data-tags="[Rolle&#39;s Theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/9/">Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</a></li>
+<li data-tags="[Mean Value Inequality Lipschitz Continuous Function]" ><a href="https://sbrmath.gitlab.io/gitmath/10/">Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</a></li>
+<li data-tags="[Sequences]" ><a href="https://sbrmath.gitlab.io/gitmath/7/">Convergence of Sequences Given a Quadratic Sum Condition</a></li>
+<li data-tags="[Sequences]" ><a href="https://sbrmath.gitlab.io/gitmath/8/">Divergence of Harmonic Series and Sequence Behavior at Infinity</a></li>
+<li data-tags="[Extreme Value Theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/6/">Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</a></li>
+<li data-tags="[Intermediate Value Theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/5/">Fixed Point Theorem for Continuous Functions on a Closed Interval</a></li>
+<li data-tags="[Linear Algebra Nilpotent matrix Eigenvalue]" ><a href="https://sbrmath.gitlab.io/gitmath/4/">Nilpotent matrix and trace</a></li>
+<li data-tags="[Mean value theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
+<li data-tags="[Mean value theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/topics/series/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
+<li data-tags="[Linear Algebra Fundemental theorem of algebra Diagonalization]" ><a href="https://sbrmath.gitlab.io/gitmath/3/">Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</a></li>
+<li data-tags="[Rolle&#39;s theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
+<li data-tags="[Rolle&#39;s theorem]" ><a href="https://sbrmath.gitlab.io/gitmath/topics/series/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
+</ul>
+
+<h2 id="or-browse-by-topic">Or Browse by Topic&hellip;</h2>
+   <ul id="tagcloud">
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/diagonalization" id="tag_diagonalization">Diagonalization</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/eigenvalue" id="tag_eigenvalue">Eigenvalue</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/extreme-value-theorem" id="tag_extreme value theorem">Extreme Value Theorem</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/fundemental-theorem-of-algebra" id="tag_fundemental theorem of algebra">Fundemental Theorem of Algebra</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/intermediate-value-theorem" id="tag_intermediate value theorem">Intermediate Value Theorem</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/linear-algebra" id="tag_linear algebra">Linear Algebra</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/lipschitz-continuous-function" id="tag_lipschitz continuous function">Lipschitz Continuous Function</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/mean-value-inequality" id="tag_mean value inequality">Mean Value Inequality</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/mean-value-theorem" id="tag_mean value theorem">Mean Value Theorem</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/nilpotent-matrix" id="tag_nilpotent matrix">Nilpotent Matrix</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/rolles-theorem" id="tag_rolle&#39;s theorem">Rolle&#39;s Theorem</a></li>
+    <li><a href="https://sbrmath.gitlab.io/gitmath/tags/sequences" id="tag_sequences">Sequences</a></li>
+    </ul>
+
+<h2 id="about-this-site">About this site</h2>
+<ul>
+<li>Founded to provide a simple and free online Problem Book.</li>
+<li>Various mathematical notions and chapters are visited through solving problems  and exercises with different difficulties.</li>
+<li>The content is intended for undergraduate students (<em>and more generally for mathematics enthusiasts</em>) to practice solving problems as well as for teachers as a source of exercises and problems to enrich their lessons.</li>
+<li>Some hints, short or complete answers can be provided.</li>
+<li>Any suggestions for a problem or exercise  or requests for a hint or answer to any questions are welcome. So  don&rsquo;t hesitate to post a comment or to  email me at <a href="mailto:sami.ben.romdhane@zohomail.com">sami.ben.romdhane@zohomail.com</a></li>
+</ul>
+<h2 id="donation">Donation</h2>
+<div class=cryptocontainer>
+<div class=cryptoinfo>
+<img alt="" style="max-height:1em;max-width:1em;display:inline" src=/pix/xmr.svg> Monero <br>
+<code style="font-size:xx-small;overflow-wrap:break-word;">43DQYosBEoR5PhztL76411LRKLZ9m2jJb3ENonb4tppV9wvMtizgvDiP3RKjp9UfbdaU9TvEXsCeFU7q64NEcdawRB2pC9i</code><br>
+<a href=/pix/monero.png><img alt="Monero QR Code" class=qr src=/pix/monero.png></a>
+</div>
+<div class=cryptoinfo>
+<img alt="" style="max-height:1em;max-width:1em;display:inline" src=/pix/btc.svg> Bitcoin <br>
+<code style="font-size:small;overflow-wrap:break-word;">bc1q5935r8ly3gpmndftf5dttpmqjycuw92x3snepg</code><br>
+<a href=/pix/bitcoin.png><img alt="Bitcoin QR Code" class=qr src=/pix/bitcoin.png></a>
+</div>
+</div>
+
+<h2 id="all-posts">All Posts</h2>
+<ul>
+	<li><time datetime="2024-08-13T00:00:00Z">2024 Aug 13</time> &ndash; <a href="/gitmath/9/">Existence of a Solution in the Open Interval (0, 1) for a Cubic Equation with Real Coefficients</a></li>
+
+	<li><time datetime="2024-08-13T00:00:00Z">2024 Aug 13</time> &ndash; <a href="/gitmath/10/">Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</a></li>
+
+	<li><time datetime="2024-08-12T00:00:00Z">2024 Aug 12</time> &ndash; <a href="/gitmath/7/">Convergence of Sequences Given a Quadratic Sum Condition</a></li>
+
+	<li><time datetime="2024-08-12T00:00:00Z">2024 Aug 12</time> &ndash; <a href="/gitmath/8/">Divergence of Harmonic Series and Sequence Behavior at Infinity</a></li>
+
+	<li><time datetime="2024-08-08T00:00:00Z">2024 Aug 08</time> &ndash; <a href="/gitmath/6/">Boundedness of Continuous and Periodic Functions on $\mathbb{R}$</a></li>
+
+	<li><time datetime="2024-08-08T00:00:00Z">2024 Aug 08</time> &ndash; <a href="/gitmath/5/">Fixed Point Theorem for Continuous Functions on a Closed Interval</a></li>
+
+	<li><time datetime="2024-08-08T00:00:00Z">2024 Aug 08</time> &ndash; <a href="/gitmath/4/">Nilpotent matrix and trace</a></li>
+
+	<li><time datetime="2024-08-07T00:00:00Z">2024 Aug 07</time> &ndash; <a href="/gitmath/2/">Computing $\lim\limits_{n\to&#43;\infty}\sum_{p=n&#43;1}^{kn} \frac1 p$ for $k &gt; 1$</a></li>
+
+	<li><time datetime="2024-08-07T00:00:00Z">2024 Aug 07</time> &ndash; <a href="/gitmath/3/">Is the endomorphism $P(X)\mapsto P(X&#43;1)-P(X)$ diagonalizable?</a></li>
+
+	<li><time datetime="2024-08-07T00:00:00Z">2024 Aug 07</time> &ndash; <a href="/gitmath/1/">Non-Periodicity of a Differentiable Function with a Non-Vanishing Derivative</a></li>
+
+	<li><time datetime="2024-08-07T00:00:00Z">2024 Aug 07</time> &ndash; <a href="/gitmath/topics/">Topics</a></li>
+</ul>
+</article>
+</article>
+</main>
+<footer>
+	<a href="https://sbrmath.gitlab.io/gitmath/">https://sbrmath.gitlab.io/gitmath/</a><br><br>
+
+
+<a href="/index.xml">
+		<img src="/rss.svg" style="max-height:1.5em; margin-bottom:20px;" alt="RSS Feed" title="Subscribe via RSS for updates.">
+	</a>
+
+</footer>
+</body>
+</html>
+

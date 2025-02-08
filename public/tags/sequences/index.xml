@@ -1,0 +1,76 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link>https://sbrmath.gitlab.io/gitmath/tags/sequences/</link>
+	<description>Recent content in Sequences on GitMath: A Collaborative Math Problem Database</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sbrmath.gitlab.io/gitmath/tags/sequences/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Convergence of Sequences Given a Quadratic Sum Condition</title>
+		<link>https://sbrmath.gitlab.io/gitmath/7/</link>
+		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/7/</guid>
+		<description>&lt;p&gt;Let $(u_n)$ and $(v_n)$ be two real sequences such that&lt;/p&gt;
+&lt;p&gt;$$ u_n^2+ u_n v_n + v_n^2 \xrightarrow[n\to+\infty]  {}0.$$&lt;/p&gt;
+&lt;p&gt;Prove that the sequences $(u_n)$ and $(v_n)$ converge to 0.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+We have
+
+$$0\le (u_n+v_n)^2= u_n^2+2u_n v_n+ v_n^2\le 2(u_n^2+u_n v_n+ v_n^2)\xrightarrow[n\to+\infty]{}0.$$
+Hence $u_n+v_n \xrightarrow[n\to+\infty]{}0$. Also
+$$u_n v_n= (u_n+v_n)^2 -(u_n^2+u_n v_n+ v_n^2)\xrightarrow[n\to+\infty]{}0$$
+so
+$$u_n^2+v_n^2= 2(u_n^2+u_n v_n+ v_n^2)-(u_n+v_n)^2\xrightarrow[n\to+\infty]{}0$$
+which allows to conclude that $u_n\xrightarrow[n\to+\infty]{}0$ and $v_n\xrightarrow[n\to+\infty]{}0$.
+
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	<item>
+		<title>Divergence of Harmonic Series and Sequence Behavior at Infinity</title>
+		<link>https://sbrmath.gitlab.io/gitmath/8/</link>
+		<pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/8/</guid>
+		<description>&lt;p&gt;Let $(H_n)$ the sequence defined for $n\in \mathbb{N}$ by
+$$H_n= \sum_{k=1}^n \frac 1k.$$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove that $H_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;/li&gt;
+&lt;li&gt;Let $(u_n)$ a sequence such that $n(u_{n+1}-u_n)\xrightarrow[n\to+\infty]{}1$. Prove that $u_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+1. Knowing $\ln(1+x)\le x$, we have
+$$\frac1k\ge \ln\left(1+\frac1k\right)=\ln(k+1)-\ln k$$
+so
+$$H_n\ge \sum_{k=1}^n \ln(k+1)-\ln k= \ln(n+1)$$
+and then $H_n\xrightarrow[n\to+\infty]{}+\infty$.&lt;br&gt;&lt;br&gt;
+
+
+2. There exists $N\in \mathbb{N}$ such that for all $n\ge N$,
+$$n(u_{n+1}-u_{n})\ge 1/2.$$
+Hence
+$$ u_{n+1}-u_{N}\ge \sum_{k=N}^n u_{k+1}-u_{k}\ge \frac12 \sum_{k=N}^n\frac1k= \frac12(H_{n}-H_{N-1})\xrightarrow[n\to+\infty]{}+\infty$$
+and then $u_{n}\xrightarrow[n\to+\infty]{}+\infty$.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	</channel>
+</rss>

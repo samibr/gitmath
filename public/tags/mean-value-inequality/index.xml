@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>GitMath: A Collaborative Math Problem Database</title>
+	<link>https://sbrmath.gitlab.io/gitmath/tags/mean-value-inequality/</link>
+	<description>Recent content in Mean Value Inequality on GitMath: A Collaborative Math Problem Database</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://sbrmath.gitlab.io/gitmath/tags/mean-value-inequality/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Lipschitz Continuity and Bounded Derivatives of Differentiable Functions</title>
+		<link>https://sbrmath.gitlab.io/gitmath/10/</link>
+		<pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://sbrmath.gitlab.io/gitmath/10/</guid>
+		<description>&lt;p&gt;Let $I$ be an interval of $\mathbb{R}$ and $f:I\to\mathbb{R}$ be differentiable.&lt;/p&gt;
+&lt;p&gt;Show that $f$ is a Lipshitz continuous function if, and only if, its derivative is bounded.&lt;/p&gt;
+
+&lt;a href=&#34;javascript:void(0);&#34; onclick=&#34;toggleAnswer();&#34; id=&#34;toggle-answer&#34;&gt;Show Answer:&lt;/a&gt;
+&lt;div id=&#34;answer&#34; style=&#34;display:none;&#34;&gt;
+    
+$(\Leftarrow)$ In accordance with the mean value inequality.&lt;br&gt;&lt;br&gt;
+
+$(\Rightarrow)$ If $f$ is $k$ Lipshitz continuous then for all $x,y\in I$ such that $x\ne y$ we have
+$$\left|\frac{f(x)-f(y)}{x-y}\right|\le k.$$
+In the limit as $y\to x$, we obtain $∣f&#39;(x)∣\le k$. Consequently, $f&#39;$ is bounded.
+
+&lt;/div&gt;
+
+</description>
+	</item>
+	
+	</channel>
+</rss>
