@@ -20,7 +20,7 @@ The site is built using [Hugo](https://gohugo.io/) and hosted on **GitHub Pages*
 
 ## 🌍 Live Site
 The compiled Hugo site is available at:
-👉 **[https://samibr.gihuab.io/gitmath](https://samibr.github.io/gitmath)**
+👉 **[https://samibr.github.io/gitmath](https://samibr.github.io/gitmath)**
 
 ## 🛠️ How to Contribute
 
