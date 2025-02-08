@@ -1,7 +1,6 @@
 baseURL = 'https://samibr.github.io/gitmath/'
 languageCode = 'en-us'
 title = 'GitMath: A Collaborative Math Problem Database'
-description = 'Provide a simple and free online Mathematics Problem Book'
 
 theme = 'lugo'
 
