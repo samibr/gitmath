@@ -3,7 +3,7 @@ relativeURLs = true
 languageCode = 'en-us'
 title = 'GitMath: A Collaborative Math Problem Database'
 
-theme = 'lugo'
+theme = "lugo"
 
 [params]
   favicon = "favicon.svg"
